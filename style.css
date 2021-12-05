@@ -8,8 +8,13 @@
 .logoFrame {
     position: fixed;
 }
+@media screen and (max-width: 1280px) 
+{ div.contentblock {width: 1200px;} } 
 
-
+@media screen and (max-width: 1140px)
+ { div.contentblock {width: 1024px;} } 
+@media screen and (max-width: 992px) 
+ { div. contentblock {width: 970px;} }
 body {
     display: flex;
     justify-content: center;
@@ -17,9 +22,9 @@ body {
     width: 100%;
     min-height: 100vh;
     background: rgb(255, 115, 63);
-   
+    overflow: hidden;
     margin: -150px;
-    transform-origin: center;
+    transform-origin: right;
 }
 
     .glowing {
@@ -57,58 +62,54 @@ a {
 
 }
 a:visited {
-    color: rgba(209, 209, 209, 0.8);
-}
-
-a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.8);
 }
 a:active {
     color: {
         color: rgba(255, 255, 255, 0.8);
         
-    }
+    };
 }
 @keyframes boxAnim
 {
     0%{
-        transform: translate(130px,100px);
+        transform: translate(0,100);
     }
     10%{
-        transform: translate(130px,98px);
+        transform: translate(0,98px);
     }
     40%{
-        transform: translate(130px,91px);
+        transform: translate(0,91px);
     }
     50%{
-        transform: translate(130px,90px);
+        transform: translate(0,90px);
     }
     
     
     100%{
-        transform: translate(130px,100px);
+        transform: translate(0,100px);
     }
 }
 @keyframes gravityLogo
 {
     0%{
-        transform: translate(130px,0);
+        transform: translate(0,0);
     }
     10%{
-        transform: translate(130px,-2px);
+        transform: translate(0,-2px);
     }
     40%{
-        transform: translate(0130px,-9px);
+        transform: translate(0,-9px);
     }
     50%{
-        transform: translate(130px,-10px);
+        transform: translate(0,-10px);
     }
     60%{
-        transform: translate(130px,-9px);
+        transform: translate(0,-9px);
     }
     
     100%{
-        transform: translate(130px,0px);
+        transform: translate(0,0px);
     }
 }
 
