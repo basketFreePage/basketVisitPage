@@ -55,6 +55,24 @@ a:hover {
 a:link {
     color: rgba(255, 255, 255, 1);
 }
+.sneaker
+{
+
+    transform: translate(0, 100px);
+    position: fixed;
+    font-family: 'Concert One', cursive;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 50px;
+    border-top: 200px;
+    padding-bottom: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-color: rgba(255, 255, 255, 0.8);
+    background:rgba(255, 255, 255, 0.1);
+    border-radius: 7%;
+    animation: boxAnim 5s linear infinite;
+
+}
 
 .boxLink
 {
@@ -72,6 +90,8 @@ a:link {
     animation: boxAnim 4s linear infinite;
 
 }
+
+
 
 
 @keyframes boxAnim
