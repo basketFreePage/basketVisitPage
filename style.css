@@ -25,6 +25,7 @@ body {
     margin: -150px;
     transform-origin: center;
     overflow-x: scroll;
+    margin-left: 0px;
 }
 
     .glowing {
