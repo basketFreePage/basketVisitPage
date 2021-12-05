@@ -9,6 +9,7 @@
     position: fixed;
 }
 
+
 body {
     display: flex;
     justify-content: center;
@@ -16,9 +17,9 @@ body {
     width: 100%;
     min-height: 100vh;
     background: rgb(255, 115, 63);
-    overflow: hidden;
+   
     margin: -150px;
-    transform-origin: right;
+    transform-origin: center;
 }
 
     .glowing {
@@ -56,54 +57,58 @@ a {
 
 }
 a:visited {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(209, 209, 209, 0.8);
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 1);
 }
 a:active {
     color: {
         color: rgba(255, 255, 255, 0.8);
         
-    };
+    }
 }
 @keyframes boxAnim
 {
     0%{
-        transform: translate(0,100);
+        transform: translate(130px,100px);
     }
     10%{
-        transform: translate(0,98px);
+        transform: translate(130px,98px);
     }
     40%{
-        transform: translate(0,91px);
+        transform: translate(130px,91px);
     }
     50%{
-        transform: translate(0,90px);
+        transform: translate(130px,90px);
     }
     
     
     100%{
-        transform: translate(0,100px);
+        transform: translate(130px,100px);
     }
 }
 @keyframes gravityLogo
 {
     0%{
-        transform: translate(0,0);
+        transform: translate(130px,0);
     }
     10%{
-        transform: translate(0,-2px);
+        transform: translate(130px,-2px);
     }
     40%{
-        transform: translate(0,-9px);
+        transform: translate(0130px,-9px);
     }
     50%{
-        transform: translate(0,-10px);
+        transform: translate(130px,-10px);
     }
     60%{
-        transform: translate(0,-9px);
+        transform: translate(130px,-9px);
     }
     
     100%{
-        transform: translate(0,0px);
+        transform: translate(130px,0px);
     }
 }
 
