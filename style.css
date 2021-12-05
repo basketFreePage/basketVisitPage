@@ -76,43 +76,43 @@ a:link {
 @keyframes boxAnim
 {
     0%{
-        transform: translate(130px,100px);
+        transform: translate(0px,100px);
     }
     10%{
-        transform: translate(130px,98px);
+        transform: translate(0px,98px);
     }
     40%{
-        transform: translate(130px,91px);
+        transform: translate(0px,91px);
     }
     50%{
-        transform: translate(130px,90px);
+        transform: translate(0px,90px);
     }
     
     
     100%{
-        transform: translate(130px,100px);
+        transform: translate(0px,100px);
     }
 }
 @keyframes gravityLogo
 {
     0%{
-        transform: translate(130px,0);
+        transform: translate(0px,0);
     }
     10%{
-        transform: translate(130px,-2px);
+        transform: translate(0px,-2px);
     }
     40%{
-        transform: translate(0130px,-9px);
+        transform: translate(0px,-9px);
     }
     50%{
-        transform: translate(130px,-10px);
+        transform: translate(0px,-10px);
     }
     60%{
-        transform: translate(130px,-9px);
+        transform: translate(0px,-9px);
     }
     
     100%{
-        transform: translate(130px,0px);
+        transform: translate(0px,0px);
     }
 }
 
