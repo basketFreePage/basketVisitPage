@@ -5,17 +5,106 @@
 
 }
 
+.logoFrame {
+    position: fixed;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     min-height: 100vh;
-    background: coral;
+    background: rgb(255, 115, 63);
     overflow: hidden;
     margin: -150px;
     transform-origin: right;
+}
+
+    .glowing {
     animation: colorChange 5s linear infinite;
+}
+
+.logoFrame {
+ 
+    width:unset;
+    position: fixed;
+    font-family: 'Concert One', cursive;
+    color: rgba(255, 255, 255, 0.8);
+    animation: gravityLogo 3s linear infinite;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.boxLink
+{
+
+    transform: translate(0, 100px);
+    position: fixed;
+    font-family: 'Concert One', cursive;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 10px;
+    border-top: 200px;
+    padding: 10px;
+    border-color: rgba(255, 255, 255, 0.8);
+    background:rgba(255, 255, 255, 0.1);
+    border-radius: 7%;
+    animation: boxAnim 4s linear infinite;
+
+}
+a:visited {
+    color: rgba(255, 255, 255, 0.8);
+}
+a:active {
+    color: {
+        color: rgba(255, 255, 255, 0.8);
+        
+    };
+}
+@keyframes boxAnim
+{
+    0%{
+        transform: translate(0,100);
+    }
+    10%{
+        transform: translate(0,98px);
+    }
+    40%{
+        transform: translate(0,91px);
+    }
+    50%{
+        transform: translate(0,90px);
+    }
+    
+    
+    100%{
+        transform: translate(0,100px);
+    }
+}
+@keyframes gravityLogo
+{
+    0%{
+        transform: translate(0,0);
+    }
+    10%{
+        transform: translate(0,-2px);
+    }
+    40%{
+        transform: translate(0,-9px);
+    }
+    50%{
+        transform: translate(0,-10px);
+    }
+    60%{
+        transform: translate(0,-9px);
+    }
+    
+    100%{
+        transform: translate(0,0px);
+    }
 }
 
 @keyframes colorChange {
@@ -33,8 +122,8 @@ body {
 }
 .glowing {
     position: relative;
-    min-width: 750px;
-    height: 750px;
+    min-width: 450px;
+    height: 450px;
 }
 
 .glowing span {
@@ -106,3 +195,4 @@ body {
     0% {transform: rotate(360deg);}
     100% {transform: rotate(0deg);}
 }
+
