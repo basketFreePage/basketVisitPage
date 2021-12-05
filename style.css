@@ -9,6 +9,8 @@
     position: fixed;
 }
 
+@media (min-width 1400px)
+
 a {
 text-decoration: none;
 }
@@ -41,7 +43,7 @@ body {
     font-family: 'Concert One', cursive;
     color: rgba(255, 255, 255, 0.8);
     animation: gravityLogo 3s linear infinite;
-    margin-left: 50px;
+    margin: 100px;
 
 }
 
@@ -68,7 +70,7 @@ a:link {
     position: fixed;
     font-family: 'Concert One', cursive;
     color: rgba(255, 255, 255, 0.8);
-    margin-left: 50px;
+    margin: 50px;
     border-top: 200px;
     padding-bottom: 400px;
     padding-left: 50px;
@@ -86,7 +88,7 @@ a:link {
     transform: translate(0, 100px);
     position: fixed;
     
-    margin-left: 50px;
+    margin: 50px;
   
     animation: boxAnimA 3.6s linear infinite;
 
@@ -131,7 +133,7 @@ h3 {
     position: fixed;
     font-family: 'Concert One', cursive;
     color: rgba(255, 255, 255, 0.8);
-    margin-left: 50px;
+    margin: 100px;
     border-top: 200px;
     padding: 10px;
     border-color: rgba(255, 255, 255, 0.8);
@@ -145,11 +147,11 @@ h3 {
 {
 
     
-    position: fixed;
+    position: absolute;
     font-family: 'Concert One', cursive;
     border-radius: 7%;
     animation: animates 4s linear infinite;
-   
+    position: fixed;
 }
 
 @keyframes animates {
