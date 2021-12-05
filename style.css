@@ -33,6 +33,7 @@ body {
     font-family: 'Concert One', cursive;
     color: rgba(255, 255, 255, 0.8);
     animation: gravityLogo 3s linear infinite;
+    margin: 100px;
 
 }
 
@@ -47,7 +48,7 @@ a {
     position: fixed;
     font-family: 'Concert One', cursive;
     color: rgba(255, 255, 255, 0.8);
-    margin: 10px;
+    margin: 100px;
     border-top: 200px;
     padding: 10px;
     border-color: rgba(255, 255, 255, 0.8);
@@ -64,10 +65,7 @@ a:hover {
     color: rgba(255, 255, 255, 1);
 }
 a:active {
-    color: {
         color: rgba(255, 255, 255, 0.8);
-        
-    }
 }
 @keyframes boxAnim
 {
