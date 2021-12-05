@@ -15,6 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    min-width: 1200px;
     min-height: 100vh;
     background: rgb(255, 115, 63);
    
