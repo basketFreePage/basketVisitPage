@@ -8,7 +8,15 @@
 .logoFrame {
     position: fixed;
 }
+@media (max-width)
 
+{
+    body {
+        display: block;
+    }
+
+    text-align: center;
+}
 body {
     display: flex;
     justify-content: center;
