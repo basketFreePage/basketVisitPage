@@ -76,7 +76,13 @@ a:link {
     animation: boxAnim 5s linear infinite;
 
 }
+h1 {
+    font-size: 2.9rem;
+}
 
+h3 {
+    font-size: 2rem;
+}
 .boxLink
 {
 
