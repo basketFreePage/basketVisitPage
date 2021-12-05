@@ -67,7 +67,7 @@ a:link {
     color: rgba(255, 255, 255, 0.8);
     margin: 50px;
     border-top: 200px;
-    padding-bottom: 300px;
+    padding-bottom: 400px;
     padding-left: 50px;
     padding-right: 50px;
     border-color: rgba(255, 255, 255, 0.8);
@@ -76,12 +76,50 @@ a:link {
     animation: boxAnim 5s linear infinite;
 
 }
+
+.sneaker1
+{
+
+    transform: translate(0, 100px);
+    position: fixed;
+    
+    margin: 50px;
+  
+    animation: boxAnimA 3.6s linear infinite;
+
+}
+
+@keyframes boxAnimA
+{
+    0%{
+        transform: translate(-300px,300px);
+    }
+    10%{
+        transform: translate(-300px,301px);
+    }
+    40%{
+        transform: translate(-300px,303px);
+    }
+    50%{
+        transform: translate(-300px,305px);
+    }
+    
+    100%{
+        transform: translate(-300px,300px);
+    }
+    
+    
+    
+    
+    
+}
+
 h1 {
-    font-size: 2.9rem;
+    font-size: 3.5rem;
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
 .boxLink
 {
@@ -108,7 +146,7 @@ h3 {
     font-family: 'Concert One', cursive;
     border-radius: 7%;
     animation: animates 4s linear infinite;
-    
+    position: fixed;
 }
 
 @keyframes animates {
